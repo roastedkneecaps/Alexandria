@@ -1,0 +1,24 @@
+Cloud Security
+
+As cloud based services like as-a-Service models (IaaS, PaaS, SaaS, 
+FaaS) expand and become more widely used, cloud security becomes more 
+important. These cloud models allow organizations to outsource some 
+fo their time-consuming computing and IT-related tasks. These 
+outsourced tasks are managed by the cloud computing providers, but 
+the security of the data may not be. Most providers impliment 
+security best practices but organizations must still be aware of how 
+their data is stored and what vulnerabilites they may have. These 
+organizations must still protect their sensitive data which is where 
+the importance of cloud security lies. Cloud security has its 
+challenges, for example, many of these services are routed through 
+third parties and are seperate from the corporate network. Cloud 
+security methods are similar to traditional network defense methods. 
+Identity and Access Management (IAM) is widely used to control who 
+can access what on a network, cloud networking is no different. 
+Organizations also have to plan for prevention and recovery of 
+potential threats. Security Information and Event Management (SIEM) 
+provides robust AI-based technologies that are able to anylize 
+extreme amounts of data acrss multiple platforms. Although SIEM does 
+not nescessarily prevent attacks and data loss on its own, it gives 
+security professionals the ability to focus on potential threats 
+rather than mass data analysis.

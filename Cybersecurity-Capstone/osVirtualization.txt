@@ -1,0 +1,10 @@
+Operating System Virtualization (OS Virtualization)
+
+OS virtualization is done primarily though the use of virtual 
+machines (VMs). A VM is an instance of an operating system (usually 
+linux or an older version of windows) running virtually within a 
+system. VMs are controlled by the Virtual Machine Manager (VMM). VMMs 
+control what resources are reserved for the VM, where it runs, and 
+which VMs run. Organizations can use this OS virtualization technique 
+to reduce the amount of physical hardware needed, while increasing 
+the number of seperate OS instances.

@@ -1,0 +1,90 @@
+RAID (Redundant Array of Independent Drives/Disks)
+- RAID systems consist of two or more drives that work in parallel.
+- RAID systems have several different levels, these are:
+  - RAID 0 - Striping
+  - RAID 1 - Mirroring
+  - RAID 5 - Striping with parity
+  - RAID 6 - Striping with double parity
+  - RAID 10 - Combining Mirroring and Striping
+
+- JBOD (Just a Bunch of Disks)
+ - Literally just a bunch of disks that act as stand-alone disks without usage of a specific RAID level
+
+-RAID 0 - Striping
+ - Data is split into blocks that are written across all the drives in the array
+ - Pros:
+   - Easy to impliment
+   - No parity overhead
+   - All storage capacity is used
+ - Cons:
+   - NOT fault-tolerant (one drive fails and the whole array fails)
+ - Usage:
+   - Ideal for non-critical data that needs to be read and written quickly
+
+- RAID 1 - Mirroring
+ - Data is stored twice by being written on the data drive and the mirror drive
+ - Pros:
+   - High speed
+   - Fault-tolerant (one drive fails and the data is still in the others)
+   - Fairly simple
+ - Cons:
+   - Storage capacity is halved because all data is written twice
+   - Some controllers do not support hot-swapping failed drives
+ - Usage:
+   - Ideal for mission critical storage, suitable for small servers
+
+- RAID 5 - Striping with parity
+ - Most common secure level
+ - Requires at least 3 drives but no more than 16
+ - Data is split into blocks that are spread across the array, one drive has the parity checksum of all block 
+data, parity data is split across drives
+ - Pros:
+   - Read transactions are fast
+   - Semi-fault-tolerant (all data is still accessable if a drive fails)
+ - Cons:
+   - Drive failures have an effect on thruoghput (it takes time for data to be replaced by reconstruction via 
+the parity data)
+   - Complex
+   - Slow data restoration
+   - If a disk fails during data restoration then that data is lost
+ - Usage:
+   - All-rounder system with efficient storage, good security, and decent performance
+   - Ideal for file and application servers that have a limited number of data drives
+
+- RAID 6 - Striping with double parity
+ - Similar to RAID 5 but parity data is written wo two drives
+ - Requires at least 4 drives
+ - Pros:
+   - Read transactions are fast
+   - More fault-tolerant than RAID 5 (it can withstand 2 simultaneous drive failures)
+ - Cons:
+   - Write transactions are slow due to the additional parity data
+   - Drive failures effect troughput
+   - Complex
+   - Data restoration is slow
+ - Usage:
+   - Better all-rounder than RAID 5
+   - Preferable over RAID 5 in the same applications
+
+- Raid 10 - Combining RAID 1 and RAID 0
+ - Mirrors all data on secondary drives and strips data across drives within a set
+ - Pros:
+   - Fast recovery time
+ - Cons:
+   - Storage capicity is halved
+   - Expensive redundancy
+
+- RAID 2, 3, 4, and 7
+ - Do exist although rarely used
+
+- RAID systems are NOT a substitution for data backups
+
+
+
+
+
+
+
+
+
+

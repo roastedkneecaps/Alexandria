@@ -1,0 +1,14 @@
+Wireless Encryption Mechanisms
+
+WEP (Wireless Equivalent Privacy) - The oldest and weakest wireless encryption mechanism. Very outdated by 
+today's standards and should NEVER be used on a modern network. 
+
+WPA (Wi-Fi Protected Access) - Replaced WEP and introduced TKIP (Temporal Key Integrity Protocol) which 
+improved security by dynamically changing encryption keys for each data packet. TKIP and WPA have known 
+vulnerabilities and should no be used for modern secure networks.  
+
+WPA2 - Built upon WPA but used AES (Advanced Encryption Standard). AES significantly strengthened wireless 
+encryption which made it viable for use in secure networks. 
+
+WPA3 - The newest and most secure standard. Uses SAE (Simultaneous Authentication of Equals) - derived from 
+the Diffie-Hellman key exchange - rather than PSK (Pre-Shared Key).

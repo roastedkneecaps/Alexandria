@@ -1,0 +1,19 @@
+Connor Hilobuk
+Week #2 Reading Assignment 1
+Cybersecurity Capstone EC-Counsil Network Defense Essentials
+
+Regulatory Frameworks, Laws, and Acts
+
+Regulatory Frameworks, in the field of Cybersecurity, serve to create compliance standards for adhering to 
+laws and regulatory requirements as established by governments, industry authorites, and the organization 
+itself. The purpose of a compliance programme is to reduce the risk of cyber threats like unauthorized 
+access, use, or disruption of sensitinve information and the systems that contain them. These compliance 
+programmes are typically closely intertwined with the Three Pillars of Information Security - 
+confidentiality, integrety, and availability. Access Control Models are designed with this express purpose. 
+Discretionary Access Control (DAC), Mandatory Access Control (MAC), Lattice-Based Access Control (LBAC), and 
+Role-Based Accesss Control (RBAC) are examples of these models. The DAC model gives access control to the 
+owner of an object and is discretionary in that the owner can pass access to any other subject. The DAC model 
+is contrasted with the MAC model - a model that controls subject access based on set security atributes in 
+compliance with the policy of that system. DAC and MAC models can be used in conjunction with eachother to
+increase security. The LBAC model relies on a hierarchical class structure based on security lables. The RBAC model, which is policy neutral, is based in a role hierarchy (i.e. subjects are granted access to objects based on thier role), this is similar to the LBAC lattice structure but is set within a system of roles and permissions rather than simple security lables.
+

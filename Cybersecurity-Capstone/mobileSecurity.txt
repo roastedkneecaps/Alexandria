@@ -1,0 +1,65 @@
+Mobile Device Security
+
+Management policies like MDM (Mobile Device Management), MAM (Mobile Application Management), and MIM (Mobile 
+Identity Management) exist to allow organizations to control access and security on the mobile devices of 
+their employees. These policies are often combined with ownership control polices (BYOD, CYOD, COBO, and 
+COPE) in EMM (Enterprise Mobile Management) systems.  
+
+------------------------------------------------------------------------------------------------------------ 
+
+Management Policy:
+
+Mobile Device Management (MDM) - allows the organization to control security features like data access, 
+password policy, data usage, app access, etc. on mobile devices in their network
+
+Mobile Application Management (MAM) - allows many of the same security features as MDM but on the application 
+level, allowing organizations to control security throughout an application life cycle
+
+Mobile Identity Management (MIM) - an authentication method that uses a device's SIM card as an identifier, 
+this allows the organization to identify and authorize deveces which enables access control models
+
+-------------------------------------------------------------------------------------------------------------
+
+Ownership Policy:
+
+Bring Your Own Device (BYOD) - the employee brings their own device
+- Pros - less device cost, emplyees use a device they are comfortable with
+- Cons - security/data risk, supporting all devices is difficult
+
+Choose Your Own Device (CYOD) - employees choose a device from a list of alloted devices
+- Pros - less security risk, less need for widespread support
+- Cons - associated cost
+
+Corporate Owned Business Only (COBO) - employees are restricted to strict use of company owned devices that 
+are used for business only
+- Pros - far less security risk, all employees have identical devices which gets rid of the need for 
+supporting of multiple devices
+- Cons - high cost, employees have 2 devices
+
+Corporate Owned Personally Enabled (COPE) - employees use company issued devices but they are given ability 
+to use it for personal activity
+- Pros - reduced security risk
+- Cons - some risk remains because it is hard to control data outside of the organization, employee privacy 
+risk, high cost
+
+--------------------------------------------------------------------------------------------------------------
+
+Mobile Device Connection Methods:
+
+Wireless Fidelity (Wi-Fi) - essentially identical to Wi-Fi connection on PC, just on mobile
+
+Mobile Network/Cellular - a network of cell towers form a grid that allows mobile devices to communicate with 
+eachother, towers act as internet routers
+
+Bluetooth - short-range, local, wireless communication using radio waves
+
+Near Field Communication (NFC) - short-range wireless communication using electromagnetic induction
+
+Mobile Hotspot - uses cellular technology to create a 'mobile Wi-Fi router' allowing other devices to connect 
+and use it like Wi-Fi
+
+Infrared - uses IR light to transmit electrical signals
+
+--------------------------------------------------------------------------------------------------------------- 
+
+

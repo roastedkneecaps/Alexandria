@@ -1,0 +1,42 @@
+Connor Hilobuk
+Week #4 Reading Assignment #1
+Cybersecurity Capstone - EC-Council Network Defense Essentials
+
+Firewall Technologies and IDS classification
+
+Firewall technologies are used to segment large networks into 
+smaller subnetworks, contain threats, and prevent threats. The 
+purpose of all of these functions is to stop threats before they can 
+reach the center of the network. There are several different types of 
+firewall technologies including Packet Filter Firewalls, 
+Application-Level Proxy Servers, Stateful Packet Inspection 
+Firewalls, and DMZ Firewalls. Packet filter firewalls filter packets 
+by the address of incomming traffic and rejects anything that does 
+not match the determined list of trusted sources. It uses rules based 
+on information in packets like TCP/IP port numbers, source and 
+destination addresses, or data type, to determine what traffic to 
+block. Application-level proxy servers check traffic by examining the 
+application used for each individual packet to verify authenticity. 
+Stateful packet inspection firewalls are among the most secure of 
+the firewall technologies. These firewalls look at all parts of a 
+packet to determine what traffic to deny, it rejects any data that 
+was not requested by the network. There is a second level of 
+screening that determines the state of each packet, this is the 
+source of the name of the technology.
+
+Intrusion Detection Systems (IDS) are used to monitor networks and 
+systems for malicious activity, policy violations, or otherwise 
+suspicious activity, in order to prevent potential threats. This 
+suspicious activity is typically reported to an administrator who 
+deals with the potential threat. Activity information gathered by an 
+IDS can aslo be collected by a SIEM (security information and event 
+management) system in order to determine the validity of a threat vs 
+a false positive. The most common classification for IDS are Network 
+IDS (NIDS) and Host-Based IDS (HIDS). NIDS monitor and analyze 
+incoming network traffic whereas HIDS monitor specific files. IDS 
+have several methods of threat detection, these include: 
+Signature-Based Detection which recognizes known patterns like 
+exploitation attempts, Anomaly-Based Detection, which recognizes 
+anomalous/suspicious activity and records it as potentially risky, 
+and Reputation-Based Detection which recognizes protential threats 
+according to ruputation scores.
