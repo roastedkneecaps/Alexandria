@@ -1,1 +1,1 @@
-Shared repo for Cybersecurity Capstone notes
+Shared repo for notes and such

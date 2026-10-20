@@ -1,0 +1,18 @@
+Part 1:
+1: give each person who has authentication to enter the fort a unique id number that is long enough to be practically impossible to guess.
+2: certain individuals would have access to different privileges than others, this would manifest as different access to physical spaces in the fort. Authorization level would be directly tied to id number.
+3: written logs would serve to keep track of who enters the fort and what they do during their time inside
+4: since all three elements are tied to the same base factor (id numeber) the weakness for all three is the same, that is that if the person appointed to checking numbers, or verifying authorization level, or keeping logs was compromised, the security of the fort itself would become compromised
+
+Part 2:
+1: authentication stays pretty much the same changing only to a computerized number check rather than a person verifying access, this would reduce vulnerabilties
+2: authorization would be done in a similar fasion to before but with computerized checks, authorization levels are still directly tied to id numbers
+3: accounting would still be done through logs, however these logs would no longer be physically written instead being updated automatically by the date gathered by the computerized checks at both the authentication and authorization stages
+
+Part 3:
+1: encryption and unique id numebers in combination with unique passwords set by authorized individuals would be used to verify the identity of a person logging in
+2: the authorization system is identical, since the authorization level is tied to id number, once that is verified so is authorization. To prevent a person from staying logged in and another person gaining access to their computer physically a time-out policy would be implimented, which would log out a user after a certain amount of time.
+3: accounting is identical
+4: harder - the online version is more suceptable to cyberattacks
+5: potential vulneravilities exist within all systems, hackers could use these vulnerabilites to gain access to he system
+
