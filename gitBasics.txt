@@ -1,0 +1,21 @@
+Commands:
+ - Basic:
+git config --modifier # modifies the git config (such as user, user email, etc..)
+git init # initializes working directory as a local git repository
+git status # displays the state of the working tree
+git add . # adds changes to staging area in working tree
+git commit -m "" # commits changes (in staging) to the repo the '-m' is the flag for adding a commit message (otherwise it will open a text editor) 
+		and the "" are for the message itself
+git log # displays the commit log
+git log --one-line # displays the commit log with commits being a single line each
+
+ - Remote Repository
+git remote add user@github.com/repo-name # links the remote repository using SSH
+git push origin main # pushes commits to the remote repository
+git pull origin main # pulls differences from the remote repository
+
+
+General:
+ - github no longer supports https links for repositories, making SSH necessary
+ - git config has to be edited BEFORE any commits are made
+ - the gitignore file is where you specify certain filetypes to omit from the commits
