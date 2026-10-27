@@ -1,0 +1,28 @@
+git is a version control system that allows users to manage local and remote repositories through the terminal
+
+Commands:
+
+Basics:
+git init # initializes the local repo
+git status # shows the status of the working tree
+git log # shows the commit log
+git log --oneline # shows the commit log with one line per commit
+git config --global <setting> # changes given setting in the global config
+git add . # adds current changes to the staging area
+git commit -m "" # commits current staged changes with the given message
+
+Commit Management:
+git revert <commit> # reverts the commit history to the given commit
+git revert HEAD~n # reverts commit history n commits
+git rebase <commit> # reverts commit history to the given commit but allows users to drop broken or otherwise problematic commits
+git rebase HEAD~n # reverts commit history n commits but allows users to drop broken or otherwise problematic commits
+git reset --soft <commit> # resets the working treee to the given commit but keeps the file changes
+git reset --soft HEAD~n # resets the working tree n commits but keeps file changes
+git reset --hard <commit> # resets the working tree to the given commit but does not keep the file changes
+git reset --hard HEAD~n # resets the working tree n commits but does not keep the file changes
+
+Remote:
+git remote add origin git@github.com:OWNER/REPOSITORY.git # links the remote repository through SSH
+git pull origin main # pulls commit history from the remote repo to the local repo
+git push origin main # pushes commits to the remote repo from the local repo
+

