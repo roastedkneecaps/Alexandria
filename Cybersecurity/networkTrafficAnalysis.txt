@@ -1,0 +1,30 @@
+Notes Abstract (from discussion):
+
+Baselining normal traffic signatures is the process of monitoring and recording behavior that is typical on 
+the network overtime to establish a reference point for what activity should look like. Any deviation from 
+the 'normal' established from baseilning could be indicative of malicious activity.
+
+Malicious activity falls into several categories:
+ - Scanning/Reconnaissance - repeated connection attempts to multiple ports, this is seen during port scans 
+and 
+network mapping
+ - Denial-of-Service - excessive traffic (sent packages) that are meant to overwhelm a network and occupy 
+resources, this takes two forms DoS (Denial-of-Service) and DDoS (Distributed-Denial-of-Service), DoS attacks 
+involve only one attacker machine, DDoS attacks involve many, either physical or virtual
+ - Command-and-Control or Malware - small, periodic outbound traffic to known malicious domains or ports
+ - Data Exfiltration - outbound traffic that is typically made up of encrypted payloads, large file 
+transfers, and small periodic file transfers (e.g. nightlys designed to avoid detection)
+ - Spoofing - traffic with forged IP headers or unusual protocol usages
+
+Attack Signature Analysis Techniques:
+The general process for network traffic signature analysis is as follows:
+ - Packet Capture - traffic is captured on an interface or port
+ - Preprocessing - captured packets are procesed, this cleans and normalizes the data
+ - Signature Matching - packets are compred against known signatures
+
+Factors to keep in mind: 
+ - Since signature analysis relies on known attack vectors, it does not catch certain attacks such as well 
+obfuscated attacks or zero-day exploits
+ - False Negatives are always possible due to the ever-evolving number and sophistication of attacks
+ - False Positives are also possible, these don't pose a security risk as much as they clog resources which 
+can make a network or organization more suceptable to attacks
