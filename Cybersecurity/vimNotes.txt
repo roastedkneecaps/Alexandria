@@ -1,0 +1,17 @@
+Vim is the improved version of vi designed for programming
+
+use hjkl to navigate (arrow keys work too but are slower)
+most all commands can be modified (more on that in commands section)
+
+Commands:
+:q! # quit without writing changes
+:wq # quit with writing changes
+i # enter insert mode
+a # enter append mode
+x # delete current character
+d # delete command
+[ESC] # back to normal mode
+r<x> # replace current character with <x> character
+[CTRL]g # shows position in file
+/ <search-phrase> # search the given phrase in the file
+  
